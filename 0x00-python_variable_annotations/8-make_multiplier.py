@@ -19,5 +19,5 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
         '''
 
         return num * multiplier
-    
+
     return multiplier_callable
